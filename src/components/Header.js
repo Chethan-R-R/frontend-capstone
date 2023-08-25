@@ -1,8 +1,8 @@
-import logo from '../icons_assets/Logo .svg'
+import logo from '../icons_assets/Logo.svg'
 export default function Header(){
     return(
-        <header>
-            <img src={logo} alt="little lemon logo" />
+        <header className='container'>
+            <img src={logo} className='logo' alt="little lemon logo" height={60} />
         </header>
     )
 }
