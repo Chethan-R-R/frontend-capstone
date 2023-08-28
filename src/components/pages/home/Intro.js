@@ -11,7 +11,7 @@ export default function Intro(){
                 <Link to='/reservation/step1'><button>Reserve Table</button></Link>
             </div>
             <div className='container restaurantfood'>
-                <img src={introimg} alt='food' width={300} />
+                <img src={introimg} alt='food' width="300px" height="400px"/>
             </div>
         </article>
     )
