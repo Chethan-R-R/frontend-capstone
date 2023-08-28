@@ -1,6 +1,10 @@
 .headerContainer{
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  background-color: white;
 }
 .container{
   width: 100%;
@@ -13,24 +17,6 @@ a{
   text-decoration: none;
   font-weight: bold;
 }
-h1{
-  font-size: 50px;
-  margin: 10px 0 10px 0;
-}
-h3{
-  font-size: 30px;
-  margin: 10px 0 10px 0;
-}
-h4{
-  font-size: 20px;
-  margin: 10px 0 10px 0;
-}
-h5{
-  font-size: 18px;
-  font-weight: 400;
-  margin: 10px 0 10px 0;
-}
-
 button{
   cursor: pointer;
   background-color: #F4CE14;
@@ -38,6 +24,20 @@ button{
   padding: 10px 30px 10px 30px;
   border-radius: 10px;
   font-size: 15px;
+}
+button:hover{
+  filter: drop-shadow(5px 5px 5px black);
+  transform: scale(1.05);
+}
+#menutoggle{
+  display: none;
+}
+.burgericon{
+  display: none;
+  position: absolute;
+  z-index: 4;
+  right: 30px;
+  top: 15px;
 }
 .yellowfont{
   color: #F4CE14;
@@ -68,6 +68,7 @@ ul{
   height: 350px;
   width: 300px;
   object-fit: cover;
+  filter: drop-shadow(0 10px 10px black);
 }
 .thisweekspecials{
   margin-top: 150px;
@@ -79,7 +80,7 @@ ul{
 
 .specials{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(310px,1fr));
   justify-items: center;
 }
 .special{
@@ -89,6 +90,8 @@ ul{
   max-width: 300px;
   border-radius: 15px;
   margin: 20px;
+  filter: drop-shadow(0 10px 10px black);
+  transition-duration: 200ms;
 }
 .special>img{
   width: 100%;
@@ -108,4 +111,265 @@ ul{
 .special>div>div>p{
   position: absolute;
   right: 0;
+}
+.special:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(20px 20px 10px black);
+  transition-duration: 200ms;
+}
+.delivery{
+  display: flex;
+  align-items: center;
+}
+.testimonials{
+  background-color: #495E57;
+  padding-bottom: 20px;
+}
+.testimonials>h1{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.testimonials>div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  justify-items: center;
+}
+.testimonialcard{
+  background-color: whitesmoke;
+  width: 240px;
+  height: 240px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: solid black;
+  filter: drop-shadow(10px 10px 10px black);
+}
+.testimonialcard>p{
+  text-align: center;
+}
+.star{
+  filter: drop-shadow(0 0 1px black);
+}
+.customerpic{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.homeabout{
+  padding: 30px 0 30px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+.homeabout div{
+  max-width: 600px;
+  height: 400px;
+
+}
+.restaurantchef{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.chefimg{
+  width: 35vh;
+  height: 40vh;
+}
+.restaurantimg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35vh;
+  height: 40vh;
+  z-index: -1;
+}
+footer{
+  padding-top: 40px;
+  background-color: #495E57;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  align-items: center;
+  text-align: center;
+}
+footer a{
+  color: white;
+}
+.footerlogo{
+  width: 150;
+  height: 200;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.invalid{
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+.stepsprogress{
+  position: relative;
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+}
+.steps{
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+.steps>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.steps>div>div{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #F4CE14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.progress>div{
+  position: relative;
+}
+.progress1,.progress2{
+  position: absolute;
+  background-color: #F4CE14;
+  width: 68%;
+  height: 10px;
+  margin-top: 20px;
+}
+.progress1{
+  right: 0;
+}
+.progress2{
+  left: 0;
+}
+form>div>div{
+  background-color: #495E57;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 50px;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  font-size: 16px;
+  margin: 10px;
+}
+label{
+  margin-right: 10px;
+}
+input{
+  width: 100%;
+  border: none;
+  background-color: #495E57;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+select{
+  width: 100%;
+  border: none;
+  background-color: #495E57;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+.review{
+  text-align: center;
+}
+.review>article{
+  width: 80%;
+  max-width: 500px;
+  display: inline-block;
+  background-color: #495E57;
+  color: white;
+  padding: 30px;
+  border-radius: 50px;
+}
+.successfull{
+  text-align: center;
+}
+
+
+@media (max-width:600px) {
+  .restaurantchef{
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .steps>div>div{
+    width: 35px;
+    height: 35px;
+  }
+  .progress1,.progress2{
+    margin-top: 14px;
+    height: 6px;
+  }
+  .burgericon{
+    display: inline-block;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    z-index: 2;
+    background-color: white;
+    transition-duration: 600ms;
+  }
+  nav > ul{
+    display: flex;
+    flex-direction: column;
+  }
+  #menutoggle:checked ~ nav{
+    left: 0;
+    transition-duration: 600ms;
+  }
+}
+
+@media (min-width:601px) and (max-width:1000px) {
+
+  .steps>div>div{
+    width: 40px;
+    height: 40px;
+  }
+  .progress1,.progress2{
+    margin-top: 16px;
+    height: 8px;
+  }
+  .burgericon{
+    display: inline-block;
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    left: -100vw;
+    z-index: 2;
+    background-color: white;
+    transition-duration: 600ms;
+  }
+  nav>ul{
+    display: flex;
+    flex-direction: column;
+  }
+  #menutoggle:checked ~ nav{
+    left: 0;
+    transition-duration: 600ms;
+  }
 }
