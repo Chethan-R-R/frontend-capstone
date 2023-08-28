@@ -108,7 +108,7 @@ ul{
   position: absolute;
   left: 0;
 }
-.special>div>div>p{
+.dishprice{
   position: absolute;
   right: 0;
 }
@@ -120,6 +120,9 @@ ul{
 .delivery{
   display: flex;
   align-items: center;
+}
+.dishprice{
+  color: orangered;
 }
 .testimonials{
   background-color: #495E57;

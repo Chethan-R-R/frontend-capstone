@@ -6,7 +6,7 @@ export default function Special({dishData}){
             <div>
                 <div>
                 <h4>{dishData.title}</h4>
-                <p>$ {dishData.price}</p>
+                <h6 className='dishprice'>$ {dishData.price}</h6>
             </div>
             <p>{dishData.description}</p>
             <div className='delivery'>

@@ -12,7 +12,7 @@ export default function Footer(){
                 <Link to='/home'><h6>Home</h6></Link>
                 <Link to='/about'><h6>About</h6></Link>
                 <Link to='/menu'><h6>Menu</h6></Link>
-                <Link to='/reservation'><h6>Reservation</h6></Link>
+                <Link to='/reservation/step1'><h6>Reservation</h6></Link>
                 <Link to='/order'><h6>Order Online</h6></Link>
                 <Link to='/login'><h6>Login</h6></Link>
             </div>
