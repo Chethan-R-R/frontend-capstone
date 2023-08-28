@@ -8,7 +8,7 @@ export default function TestimonialCard({customerReview}){
     return(
         <div className="testimonialcard container">
             <div className='starratings'>{stars}</div>
-            <img className='customerpic' src={customerReview.pic} alt='customer pic' width={200} height={200}/>
+            <img className='customerpic' src={customerReview.pic} alt='customer pic' loading="lazy" width={200} height={200}/>
             <h6>{customerReview.name}</h6>
             <p>{customerReview.comment}</p>
         </div>

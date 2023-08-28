@@ -5,7 +5,7 @@ export default function Footer(){
     return(
         <footer>
             <div className="container">
-                <img src={footerLogo} className='footerlogo' alt='little lemon footer logo' width={130} height={200} />
+                <img src={footerLogo} className='footerlogo' alt='little lemon footer logo' loading="lazy" width={130} height={200} />
             </div>
             <div className="container">
                 <h4>Navigation</h4>
