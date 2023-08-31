@@ -1,5 +1,10 @@
+import { useNavigate } from "react-router-dom"
 export default function Order(){
+    const navigate=useNavigate()
+    setTimeout(()=>{
+        navigate("/reservation/step1")
+    },1400)
     return(
-        <h1>Order</h1>
+        <h6>This feature is not availabel yet only "reservation" is availabel</h6>
     )
 }

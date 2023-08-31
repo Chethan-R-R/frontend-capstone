@@ -1,7 +1,7 @@
 import restaurant from '../../../icons_assets/restaurant.jpg'
 import chef from '../../../icons_assets/restaurant chef B.jpg'
 
-export default function Abou(){
+export default function About(){
     return(
         <article className='homeabout'>
             <div className='container'>
