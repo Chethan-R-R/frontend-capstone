@@ -1,4 +1,4 @@
-# little lemon website - front end capstone project
+# little lemon website - Meta front end capstone project
 
 ## Technologies Used
 * React Js
@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository showcases my capstone project developed as part of the Meta Front End Developer Professional Certificate. It's a [brief description of the project's purpose] implemented using HTML, CSS, and JavaScript.
+This repository showcases my capstone project developed as part of the Meta Front End Developer Professional Course. It's a Home page and reservation feature implemented using HTML, CSS, JavaScript and React.
 
 # UI design
 ## Wireframe
