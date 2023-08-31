@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository showcases my capstone project developed as part of the Meta Front End Developer Professional Course. It's a Home page and reservation feature implemented using HTML, CSS, JavaScript and React.
+This repository showcases my capstone project developed as part of the Meta Front End Developer Professional Course. It features a home page and a reservation system implemented using HTML, CSS, JavaScript and React.
 
 # UI design
 ## Wireframe
