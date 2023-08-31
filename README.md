@@ -12,13 +12,14 @@ This repository showcases my capstone project developed as part of the Meta Fron
 
 # UI design
 ## Wireframe
-
-![wireframe](https://github.com/Chethan-R-R/frontend-capstone/assets/119437771/1d403688-289a-4eac-8c64-09fe736288cf)
-## Reservation Wireframe
 ![finalWireFrame](https://github.com/Chethan-R-R/frontend-capstone/assets/119437771/0f1174a1-9b23-42e3-a45c-e0c58580b951)
 
-## Prototype
 
+## Reservation Wireframe
+![wireframe](https://github.com/Chethan-R-R/frontend-capstone/assets/119437771/1d403688-289a-4eac-8c64-09fe736288cf)
+
+
+## Prototype
 ![finalPrototype](https://github.com/Chethan-R-R/frontend-capstone/assets/119437771/08de5dfe-3711-4a0b-b47a-b656a8877a2a)
 
 ## Reservation Prototype
