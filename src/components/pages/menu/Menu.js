@@ -5,6 +5,6 @@ export default function Menu(){
         navigate("/reservation/step1")
     },1400)
     return(
-        <h6>This feature is not availabel yet only "reservation" is availabel</h6>
+        <h6>This feature is not available yet only "reservation" is available</h6>
     )
 }
